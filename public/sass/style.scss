@@ -159,14 +159,13 @@ li{
 }
 
 .main-container{
-    margin: 4rem auto;
+    margin: 2rem auto;
     max-width: 1000px;
-    margin-bottom: 4rem;
 }
 
 .main-text{
     max-width: 1000px;
-    margin: 4rem auto;
+    margin: 2rem auto;
     text-align: center;
     color: $tc;
     h1{
@@ -176,22 +175,6 @@ li{
 
         span{
             color: $fg;
-        }
-    }
-
-    h2{
-        display: inline-block;
-        text-transform: uppercase;
-        font-size: 1rem;
-        position: relative;
-        &::after{
-            content: '';
-            position: absolute;
-            top: -3px;
-            right: -5px;
-            width: 0.4rem;
-            height: 0.4rem;
-            background-color: $fg-hover;
         }
     }
 
@@ -331,11 +314,10 @@ li{
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 1rem;
         cursor: pointer;
 
         img{
-            width: 50px;
+            height: 25px;
             filter: grayscale(1) invert(1);
         }
         .logo{
@@ -343,10 +325,6 @@ li{
             h1{
                 font-family: $popins;
                 font-size: 2rem;
-                span{
-                    color: $fg;
-                    letter-spacing: 2px;
-                }
             }
         }
     }
@@ -803,7 +781,7 @@ li{
 // contact 
 .contact{
     margin: 0rem auto;
-    padding: 10rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
     .main-container{
         form{
             width: 100%;
@@ -868,7 +846,7 @@ li{
 // footer 
 
 footer{
-    margin: 5rem auto 0rem auto;
+    margin: 2rem auto 0rem auto;
     background-color: $bg;
 
     .footer-image{
@@ -896,10 +874,8 @@ footer{
         // align-items: center;
         img {
             filter: grayscale(1) invert(1);
-            opacity: 90%;
             margin-bottom: 0.1rem;
-            width: 55px;
-            // display: none;
+            height: 25px;
          }
         p {
             line-height: 1.5;
@@ -938,6 +914,9 @@ footer{
         }
 
         .heading-foo{
+            span {
+                display: flex;
+            }
             h1{
                 margin-bottom: 1rem;
             }

@@ -129,14 +129,13 @@ li {
 }
 
 .main-container {
-  margin: 4rem auto;
+  margin: 2rem auto;
   max-width: 1000px;
-  margin-bottom: 4rem;
 }
 
 .main-text {
   max-width: 1000px;
-  margin: 4rem auto;
+  margin: 2rem auto;
   text-align: center;
   color: hsl(0, 0%, 100%);
 }
@@ -147,21 +146,6 @@ li {
 }
 .main-text h1 span {
   color: hsl(167, 82%, 65%);
-}
-.main-text h2 {
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 1rem;
-  position: relative;
-}
-.main-text h2::after {
-  content: "";
-  position: absolute;
-  top: -3px;
-  right: -5px;
-  width: 0.4rem;
-  height: 0.4rem;
-  background-color: hsl(167, 61%, 45%);
 }
 .main-text p {
   display: inline-block;
@@ -282,12 +266,11 @@ li {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 1rem;
   cursor: pointer;
 }
 .primary-header .left-part img,
 .primary-header .left-part a img {
-  width: 50px;
+  height: 25px;
   filter: grayscale(1) invert(1);
 }
 .primary-header .left-part .logo,
@@ -298,11 +281,6 @@ li {
 .primary-header .left-part a .logo h1 {
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
-}
-.primary-header .left-part .logo h1 span,
-.primary-header .left-part a .logo h1 span {
-  color: hsl(167, 82%, 65%);
-  letter-spacing: 2px;
 }
 .primary-header .right-part .navbar {
   opacity: 0;
@@ -677,7 +655,7 @@ li {
 
 .contact {
   margin: 0rem auto;
-  padding: 10rem 2rem 2rem 2rem;
+  padding: 2rem 2rem 2rem 2rem;
 }
 .contact .main-container form {
   width: 100%;
@@ -729,7 +707,7 @@ li {
 }
 
 footer {
-  margin: 5rem auto 0rem auto;
+  margin: 2rem auto 0rem auto;
   background-color: hsl(0, 0%, 3%);
 }
 footer .footer-image {
@@ -755,9 +733,8 @@ footer .main-container {
 }
 footer .main-container img {
   filter: grayscale(1) invert(1);
-  opacity: 90%;
   margin-bottom: 0.1rem;
-  width: 55px;
+  height: 25px;
 }
 footer .main-container p {
   line-height: 1.5;
@@ -789,6 +766,9 @@ footer .main-container h1::before {
   background-color: hsl(167, 82%, 65%);
   border-radius: 8px;
   opacity: 80%;
+}
+footer .main-container .heading-foo span {
+  display: flex;
 }
 footer .main-container .heading-foo h1 {
   margin-bottom: 1rem;
