@@ -626,6 +626,7 @@ li {
 
 .contact {
   padding: 2rem;
+  min-height: calc(100vh - 220px);
 }
 .contact .main-container form {
   width: 100%;
