@@ -325,14 +325,28 @@ li {
   gap: 2rem;
   flex-direction: column;
 }
+.primary-header .right-part .navbar ul li {
+  position: relative;
+}
 .primary-header .right-part .navbar ul li a {
   color: hsl(0, 0%, 100%);
   font-size: 2rem;
   font-weight: 500;
-  transition: all 500ms ease-in-out;
+  transition: all 280ms ease-in-out;
 }
 .primary-header .right-part .navbar ul li a:hover {
   color: hsl(167, 82%, 65%);
+}
+.primary-header .right-part .navbar ul li.active::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: calc(100% - 10px);
+  border-radius: 2px;
+  left: 5px;
+  bottom: -4px;
+  height: 2px;
+  background-color: hsl(167, 82%, 65%);
 }
 .primary-header .right-part .navbar.active {
   opacity: 1;
