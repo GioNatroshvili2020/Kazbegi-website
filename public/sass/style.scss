@@ -321,18 +321,18 @@ li {
             &:hover {
               color: $fg;
             }
-          }
 
-          &.active::after {
-            content: "";
-            display: block;
-            position: absolute;
-            width: calc(100% - 10px);
-            border-radius: 2px;
-            left: 5px;
-            bottom: -4px;
-            height: 2px;
-            background-color: $fg;
+            &.active::after {
+                content: "";
+                display: block;
+                position: absolute;
+                width: calc(100% - 10px);
+                border-radius: 2px;
+                left: 5px;
+                bottom: -4px;
+                height: 2px;
+                background-color: $fg;
+              }
           }
         }
       }

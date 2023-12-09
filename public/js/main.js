@@ -1,13 +1,26 @@
-const ham = document.querySelector('.ham-menu')
-const nav = document.querySelector('.navbar')
+function onLoad(header) {
+    const headerPlaceholder = document.getElementById('header-placeholder');
+    headerPlaceholder.innerHTML = header;
 
-ham.addEventListener("click",()=>{
-    ham.classList.toggle('active')
-    nav.classList.toggle('active')
-})
+    const pages = Array.from(document.querySelectorAll('.navbar a'));
+    const path = location.pathname;
+    const currentPage = pages.find(p => path.includes(p.pathname))
+    if (currentPage) currentPage.classList.add('active');
 
-const loadder = document.getElementById('preloadder')
+    const ham = document.querySelector('.ham-menu')
+    const nav = document.querySelector('.navbar')
+    ham.addEventListener("click", ()=>{
+        ham.classList.toggle('active')
+        nav.classList.toggle('active')
+    })
+
+    const loadder = document.getElementById('preloadder')
+    loadder.style.display = "none";
+}
 
 window.addEventListener("load",()=>{
-    loadder.style.display = "none";
+    fetch('header.html').then(response => response.text()).then((header) => {
+        onLoad(header);
+    });
 });
+
