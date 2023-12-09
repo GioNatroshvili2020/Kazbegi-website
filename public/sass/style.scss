@@ -441,7 +441,6 @@ li{
     display: flex;
     align-items: center;
     padding: 1rem 5rem 1rem 2rem;
-    margin-bottom: -2rem;
     
 
     &-text{
@@ -484,30 +483,20 @@ li{
     }
 }
 
-// --------------------
-
-// explore 
-
 .explore{
-    margin: 10rem auto 0rem auto;
     width: 100%;
     height: 100%;
-    padding: 4rem 2rem;
+    padding: 2rem;
 
     .main-container{
         display: grid;
         grid-template-columns:repeat(auto-fit,minmax(275px,1fr));
         gap: 2rem;
-
     }
 }
 
-// ----------------
-
-// about
 .about{
-    margin: 0rem auto;
-    padding: 10rem 2rem 2rem 2rem;
+    padding: 2rem;
     .main-container{
         display: grid;
         grid-template-columns: 1fr;
@@ -521,9 +510,6 @@ li{
         }
     }
 }
-// --------
-
-// tour 
 
 .tour{
     width: 100%;
@@ -723,8 +709,7 @@ li{
 }
 
 .footage{
-    margin: 0rem auto 0rem auto;
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 2rem;
 
     .main-container{
         display: grid;
@@ -776,12 +761,9 @@ li{
     }
 
 }
-// ------------
 
-// contact 
 .contact{
-    margin: 0rem auto;
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 2rem;
     .main-container{
         form{
             width: 100%;
@@ -846,7 +828,6 @@ li{
 // footer 
 
 footer{
-    margin: 2rem auto 0rem auto;
     background-color: $bg;
 
     .footer-image{
