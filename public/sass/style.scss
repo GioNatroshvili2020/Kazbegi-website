@@ -331,11 +331,10 @@ li{
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 1rem;
         cursor: pointer;
 
         img{
-            width: 50px;
+            height: 25px;
             filter: grayscale(1) invert(1);
         }
         .logo{
@@ -343,10 +342,6 @@ li{
             h1{
                 font-family: $popins;
                 font-size: 2rem;
-                span{
-                    color: $fg;
-                    letter-spacing: 2px;
-                }
             }
         }
     }
@@ -896,7 +891,6 @@ footer{
         // align-items: center;
         img {
             filter: grayscale(1) invert(1);
-            opacity: 90%;
             margin-bottom: 0.1rem;
             height: 25px;
          }
