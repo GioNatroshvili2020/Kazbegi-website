@@ -96,11 +96,11 @@ li{
         font-weight: 700;
         letter-spacing: 1.2px;
         flex-wrap: nowrap;
-        transition: all 700ms ease-in-out;
+        transition: all 280ms ease-in-out;
     }
     svg{
         color: $tc;
-        transition: all 700ms ease-in-out;
+        transition: all 280ms ease-in-out;
         width: 20px;
     }
 
@@ -125,7 +125,7 @@ li{
     color: $fg;
     background-color: transparent;
     border: 3px solid $fg;
-    transition: all 500ms ease-in-out;
+    transition: all 280ms ease-in-out;
 
     &::after{
         content: '';
@@ -346,7 +346,7 @@ li{
             gap: 1.5rem;
             letter-spacing: 1px;
             background-color: $bg-a;
-            transition: all 1000ms ease-in-out;
+            transition: all 280ms ease-in-out;
             box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
             padding: 1rem;
             ul{
@@ -400,7 +400,7 @@ li{
                 height: 0.6rem;
                 background-color: $tc;
                 border-radius: 5px;
-                transition: all 500ms ease-in-out;
+                transition: all 280ms ease-in-out;
             }
         }
 
@@ -432,7 +432,7 @@ li{
 
 .banner{
     position: relative;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url('https://images.unsplash.com/photo-1547626740-02cb6aed9ef8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url('https://images.unsplash.com/photo-1607068891828-f16297950a66?q=80&w=2702&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -441,6 +441,7 @@ li{
     display: flex;
     align-items: center;
     padding: 1rem 5rem 1rem 2rem;
+    margin-bottom: -2rem;
     
 
     &-text{
@@ -474,7 +475,7 @@ li{
         .btn-get{
             display: inline-block;
             padding: 1rem 4rem;
-            transition: all 500ms ease-in-out;
+            transition: all 280ms ease-in-out;
 
             &:hover{
                 background-color: $fg-hover;
@@ -563,7 +564,7 @@ li{
                 cursor: pointer;
                 font-size: 3rem;
                 margin-bottom: 1rem;
-                transition: all 350ms ease-in-out;
+                transition: all 280ms ease-in-out;
                 &:hover{
                     color: $fg;
                 }
@@ -659,7 +660,7 @@ li{
         margin-bottom: 2rem;
         h1{
             cursor: pointer;
-            transition: all 350ms ease-in-out;
+            transition: all 280ms ease-in-out;
             font-size: 4rem;
 
             &:hover{
@@ -739,16 +740,16 @@ li{
             background-color: #2dbb9c;
             border-radius: 3px;
             overflow: hidden;
-            transition: all 450ms ease-in-out;
+            transition: all 280ms ease-in-out;
 
             img{
-                transition: all 450ms ease-in-out;
+                transition: all 280ms ease-in-out;
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
             }
             h3{
-                transition: all 450ms ease-in-out;
+                transition: all 280ms ease-in-out;
                 position: absolute;
                 top: 50%;
                 left: 50%;
@@ -804,7 +805,7 @@ li{
             color: $bg-main;
             font-weight: 700;
             font-size: 1.6rem;
-            transition: all 350ms ease-in-out;
+            transition: all 280ms ease-in-out;
 
             &:hover{
                 background-color: $fg-hover;
@@ -944,7 +945,7 @@ footer{
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    transition: all 350ms ease-in-out;
+                    transition: all 280ms ease-in-out;
 
                     .fill{
                         fill: $fg;
@@ -984,7 +985,7 @@ footer{
                 li{
                     a{
                         font-size: 1.5rem;
-                        transition: all 350ms ease-in-out;
+                        transition: all 280ms ease-in-out;
 
                         &:hover{
                             color: $fg;
