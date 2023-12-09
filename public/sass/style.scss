@@ -378,15 +378,28 @@ li{
                 flex-direction: column;
                 
                 li{
+                    position: relative;
                     a{
                         color: $tc;
                         font-size: 2rem;
                         font-weight: 500;
-                        transition: all 500ms ease-in-out;
+                        transition: all 280ms ease-in-out;
     
                         &:hover{
                             color: $fg;
                         }
+                    }
+
+                    &.active::after{
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        width: calc(100% - 10px);
+                        border-radius: 2px;
+                        left: 5px;
+                        bottom: -4px;
+                        height: 2px;
+                        background-color: $fg;
                     }
                     
                 }
