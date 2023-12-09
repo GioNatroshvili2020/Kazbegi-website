@@ -21,19 +21,19 @@
   </head>
 
   <body>
-    <div id="preloadder"></div>
+    <div id="preloadder" role="status" aria-live="polite"></div>
 
-    <header class="primary-header">
+    <header class="primary-header" role="banner">
       <div class="left-part">
-        <a href="index.html">
-          <img src="public/images/logo/mountain.png" alt="" />
+        <a href="index.html" aria-label="Go to Home Page">
+          <img src="public/images/logo/mountain.png" alt="Kazbegi Logo" />
           <div class="logo">
             <h1>Kazbegi</h1>
           </div>
         </a>
       </div>
       <div class="right-part">
-        <div class="navbar">
+        <div class="navbar" role="navigation">
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="sights.html">Sights</a></li>
@@ -50,7 +50,7 @@
       </div>
     </header>
 
-    <main>
+    <main role="main">
       <section class="tour hreview-aggregate" id="tour">
         <div class="main-text">
           <h1>Tours</h1>
@@ -86,6 +86,7 @@
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                   stroke-width="2"
+                  aria-label="View Route Map"
                 >
                   <path
                     stroke-linecap="round"
@@ -222,7 +223,7 @@
       </section>
     </main>
 
-    <footer class="hcard">
+    <footer class="hcard" role="contentinfo">
       <div class="main-container">
         <div class="heading-foo org">
           <span>
