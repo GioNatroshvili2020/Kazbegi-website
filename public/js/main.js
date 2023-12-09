@@ -1,4 +1,4 @@
-function onLoad(header) {
+function onLoad() {
   const ham = document.querySelector(".ham-menu");
   const nav = document.querySelector(".navbar");
   ham.addEventListener("click", () => {
@@ -11,5 +11,5 @@ function onLoad(header) {
 }
 
 window.addEventListener("load", () => {
-  onLoad(header);
+  onLoad();
 });
