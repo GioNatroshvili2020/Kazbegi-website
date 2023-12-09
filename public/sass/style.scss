@@ -720,17 +720,16 @@ li{
         }
     }
 }
-// ------ 
 
-// media 
-.media{
+.footage{
     margin: 0rem auto 0rem auto;
-    padding: 10rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
 
     .main-container{
         display: grid;
         grid-template-columns: repeat(auto-fit,minmax(275px,1fr));
         gap: 2rem;
+        margin-top: 4rem;
         
         .image{
             position: relative;
